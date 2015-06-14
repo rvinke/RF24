@@ -62,7 +62,7 @@ int main(int argc, char** argv)
 	radio.setRetries(15,15);
 	radio.setDataRate(RF24_1MBPS);
 	radio.setPALevel(RF24_PA_MAX);
-	radio.setChannel(76);
+	radio.setChannel(1);
 	radio.setCRCLength(RF24_CRC_16);
 
 	// Open 6 pipes for readings ( 5 plus pipe0, also can be used for reading )
